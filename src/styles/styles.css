@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+
+body {
+  background: #fbd81f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+}
+
+/* div {
+  display: inline-block;
+  align-content: center;
+} */
+
+.layout {
+  width: 300px;
+  min-height: 300px;
+  margin-top: 100px;
+  padding: 20px;
+}
+
+.list {
+  background: white;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+input::placeholder {
+  color: #d3d3d3;
+}
+
+form input {
+  color: #808080;
+  font-size: 15px;
+  width: 70%;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: solid 1px #dcdbdb;
+  border-right: none;
+}
+
+form button {
+  color: white;
+  font-size: 15px;
+  background-color: #45c39f;
+  width: 20%;
+  padding: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: 1px solid #dcdbdb;
+  border-left: none;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 10px 5px 10px 5px;
+}
+
+li {
+  display: flex;
+  margin: 5px;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+
+li i {
+  visibility: hidden;
+}
+li:hover {
+  background-color: #f7f7f7;
+  border-radius: 10px;
+}
+
+li:hover > i {
+  background-color: #f7f7f7;
+  float: right;
+  visibility: visible;
+  color: #ff8c69;
+  padding-right: 5px;
+}
+
+.done span {
+  text-decoration: line-through;
+}
